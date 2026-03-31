@@ -1384,16 +1384,6 @@ function AppContent() {
                 <div className="flex gap-2">
                   <button 
                     onClick={() => {
-                      setGalleryTarget('chat');
-                      setShowGalleryModal(true);
-                    }}
-                    className="p-2 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10"
-                    title="Gallery"
-                  >
-                    <ImageIcon className="w-5 h-5 text-slate-400" />
-                  </button>
-                  <button 
-                    onClick={() => {
                       const input = document.createElement('input');
                       input.type = 'file';
                       input.accept = 'video/*';
@@ -2554,7 +2544,7 @@ function AppContent() {
                   className="w-full py-3 bg-white/5 border border-white/10 rounded-xl font-bold hover:bg-white/10 transition-colors flex items-center justify-center gap-2"
                 >
                   <Plus className="w-4 h-4" />
-                  Choose from Gallery
+                  Upload from Device
                 </button>
               </div>
 

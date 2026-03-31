@@ -1,0 +1,9 @@
+{
+  "name": "ColonyConnect",
+  "description": "A community-focused mobile app for connecting people with real-time chat, interactive maps, and social feeds.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera",
+    "microphone"
+  ]
+}
